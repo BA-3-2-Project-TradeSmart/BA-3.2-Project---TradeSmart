@@ -1,0 +1,111 @@
+{
+  "method": "Like-for-like value retention per make+model across model years (April 2023 snapshot), exponential fit value(t) = value(0) * e^(-r t)",
+  "model_year_pairs_used": 2499,
+  "models_with_several_years": 1289,
+  "value_retained_by_years_older": {
+    "1": {
+      "median": 0.9167,
+      "pairs": 1063
+    },
+    "2": {
+      "median": 0.8368,
+      "pairs": 676
+    },
+    "3": {
+      "median": 0.7569,
+      "pairs": 399
+    },
+    "4": {
+      "median": 0.6714,
+      "pairs": 232
+    },
+    "5": {
+      "median": 0.625,
+      "pairs": 129
+    }
+  },
+  "fitted_rate_r": 0.0997,
+  "annual_depreciation": 0.0949,
+  "max_gap_fit_vs_observed": 0.0176,
+  "annual_depreciation_by_body_type": [
+    {
+      "body_type": "Extended cab",
+      "annual_depreciation": 0.0625,
+      "model_year_pairs": 31
+    },
+    {
+      "body_type": "Double cab",
+      "annual_depreciation": 0.082,
+      "model_year_pairs": 257
+    },
+    {
+      "body_type": "Single cab",
+      "annual_depreciation": 0.0888,
+      "model_year_pairs": 151
+    },
+    {
+      "body_type": "Hatchback",
+      "annual_depreciation": 0.089,
+      "model_year_pairs": 555
+    },
+    {
+      "body_type": "Coup\u00e9",
+      "annual_depreciation": 0.0947,
+      "model_year_pairs": 40
+    },
+    {
+      "body_type": "SUV",
+      "annual_depreciation": 0.0983,
+      "model_year_pairs": 1027
+    },
+    {
+      "body_type": "MPV",
+      "annual_depreciation": 0.103,
+      "model_year_pairs": 117
+    },
+    {
+      "body_type": "Sedan",
+      "annual_depreciation": 0.1125,
+      "model_year_pairs": 244
+    }
+  ],
+  "raw_median_price_by_model_year": {
+    "2018": 329900.0,
+    "2019": 369900.0,
+    "2020": 379750.0,
+    "2021": 349900.0,
+    "2022": 389900.0,
+    "2023": 429900.0
+  },
+  "example_forecast": {
+    "vehicle": "2019 Volkswagen Polo Vivo Hatch 1.4 Trendline",
+    "listings": 34,
+    "median_price_2023": 169900.0,
+    "projection": [
+      {
+        "year": 2023,
+        "projected_value": 169900
+      },
+      {
+        "year": 2024,
+        "projected_value": 153774
+      },
+      {
+        "year": 2025,
+        "projected_value": 139179
+      },
+      {
+        "year": 2026,
+        "projected_value": 125969
+      },
+      {
+        "year": 2027,
+        "projected_value": 114013
+      },
+      {
+        "year": 2028,
+        "projected_value": 103191
+      }
+    ]
+  }
+}

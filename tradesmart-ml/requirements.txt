@@ -1,0 +1,18 @@
+# TradeSmart AI - Python dependencies
+#
+# Install with:   pip install -r requirements.txt
+# Then also run:  python -m spacy download en_core_web_sm
+#
+# Pinned to the exact versions the models in models/ were trained with,
+# on Python 3.12. scikit-learn, numpy, pandas, xgboost and joblib must
+# match tradesmart-flask/requirements.txt, since the web app loads the
+# XGBoost model this project saves.
+
+pandas==3.0.6
+numpy==2.5.3
+scikit-learn==1.9.1
+xgboost==3.4.1
+tensorflow==2.21.0
+spacy==3.8.16
+joblib==1.6.0
+matplotlib==3.11.2

@@ -1,0 +1,27 @@
+{
+  "method": "RandomizedSearchCV, 40 candidates, 5-fold CV on the training 80% only, scored by MAE; then evaluated once on the same held-out test set as train_models.py",
+  "search_seconds": 530.6,
+  "best_cv_MAE": 43033.08,
+  "best_params": {
+    "colsample_bytree": 0.561,
+    "learning_rate": 0.0291,
+    "max_depth": 8,
+    "min_child_weight": 1,
+    "n_estimators": 584,
+    "reg_lambda": 0.2857,
+    "subsample": 0.7708
+  },
+  "test_before": {
+    "MAE": 45607.05,
+    "RMSE": 87427.17,
+    "R2": 0.9719
+  },
+  "test_after": {
+    "MAE": 38967.22,
+    "RMSE": 84740.19,
+    "R2": 0.9736
+  },
+  "MAE_change_pct": -14.6,
+  "RMSE_change_pct": -3.1,
+  "improved_on_both_MAE_and_RMSE": true
+}

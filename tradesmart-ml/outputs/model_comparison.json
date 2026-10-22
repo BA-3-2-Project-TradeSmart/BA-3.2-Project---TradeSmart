@@ -1,0 +1,169 @@
+{
+  "test_results": {
+    "Depreciation baseline": {
+      "MAE": 59980.62,
+      "RMSE": 163203.87,
+      "R2": 0.9021,
+      "fit_seconds": 5.44,
+      "fitted_global_rate_per_year": 0.0983
+    },
+    "Linear Regression": {
+      "MAE": 92169.17,
+      "RMSE": 181579.84,
+      "R2": 0.8788,
+      "fit_seconds": 0.58,
+      "cv10_MAE_mean": 91281.28,
+      "cv10_MAE_std": 5924.59
+    },
+    "Random Forest": {
+      "MAE": 43196.11,
+      "RMSE": 107392.04,
+      "R2": 0.9576,
+      "fit_seconds": 72.84,
+      "cv10_MAE_mean": 45683.42,
+      "cv10_MAE_std": 5795.67
+    },
+    "XGBoost": {
+      "MAE": 39116.29,
+      "RMSE": 85414.8,
+      "R2": 0.9732,
+      "fit_seconds": 5.53,
+      "cv10_MAE_mean": 42403.6,
+      "cv10_MAE_std": 4915.78
+    },
+    "Deep Learning (MLP)": {
+      "MAE": 51528.97,
+      "RMSE": 148097.83,
+      "R2": 0.9194,
+      "fit_seconds": 60.95,
+      "epochs_trained": 134,
+      "architecture": "Dense(128)-BN-Dropout(0.2)-Dense(64)-BN-Dropout(0.2)-Dense(32)-Dense(1), Adam lr=1e-3, target standardised"
+    }
+  },
+  "top_feature_importance": {
+    "Random Forest": [
+      {
+        "feature": "num__Power maximum (detail)",
+        "importance": 0.5617
+      },
+      {
+        "feature": "num__Torque maximum",
+        "importance": 0.1574
+      },
+      {
+        "feature": "num__Mileage",
+        "importance": 0.0595
+      },
+      {
+        "feature": "num__Acceleration 0-100 km/h",
+        "importance": 0.0374
+      },
+      {
+        "feature": "num__Maximum/top speed",
+        "importance": 0.0297
+      },
+      {
+        "feature": "num__Engine capacity (litre)",
+        "importance": 0.0236
+      },
+      {
+        "feature": "num__VehicleAge",
+        "importance": 0.022
+      },
+      {
+        "feature": "num__CO2 emissions (average)",
+        "importance": 0.0206
+      },
+      {
+        "feature": "num__Fuel capacity",
+        "importance": 0.0151
+      },
+      {
+        "feature": "cat__Body Type_MPV",
+        "importance": 0.0102
+      },
+      {
+        "feature": "num__Fuel consumption (average)",
+        "importance": 0.0093
+      },
+      {
+        "feature": "num__ModelFrequency",
+        "importance": 0.0081
+      },
+      {
+        "feature": "cat__Driven wheels_Rear Wheel Drive",
+        "importance": 0.0045
+      },
+      {
+        "feature": "cat__Cylinder layout and quantity_V12",
+        "importance": 0.0037
+      },
+      {
+        "feature": "cat__Driven wheels_All Wheel Drive",
+        "importance": 0.0025
+      }
+    ],
+    "XGBoost": [
+      {
+        "feature": "num__Power maximum (detail)",
+        "importance": 0.1072
+      },
+      {
+        "feature": "cat__Brand_Rolls-Royce",
+        "importance": 0.0885
+      },
+      {
+        "feature": "cat__Cylinder layout and quantity_V12",
+        "importance": 0.0778
+      },
+      {
+        "feature": "num__Torque maximum",
+        "importance": 0.0587
+      },
+      {
+        "feature": "cat__Engine position_Front",
+        "importance": 0.0514
+      },
+      {
+        "feature": "cat__Body Type_Super sports",
+        "importance": 0.0444
+      },
+      {
+        "feature": "cat__Brand_Ferrari",
+        "importance": 0.0422
+      },
+      {
+        "feature": "cat__Brand_McLaren",
+        "importance": 0.0348
+      },
+      {
+        "feature": "cat__Brand_Chevrolet",
+        "importance": 0.0339
+      },
+      {
+        "feature": "cat__Brand_Lamborghini",
+        "importance": 0.0299
+      },
+      {
+        "feature": "cat__Cylinder layout and quantity_b6",
+        "importance": 0.0269
+      },
+      {
+        "feature": "cat__Driven wheels_Front Wheel Drive",
+        "importance": 0.0229
+      },
+      {
+        "feature": "cat__Engine position_Rear",
+        "importance": 0.0217
+      },
+      {
+        "feature": "cat__Brand_Bentley",
+        "importance": 0.0197
+      },
+      {
+        "feature": "num__Acceleration 0-100 km/h",
+        "importance": 0.0193
+      }
+    ]
+  }
+}

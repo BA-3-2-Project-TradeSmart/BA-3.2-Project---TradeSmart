@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+venv/
+.venv/
+
+# ~100MB, too big for GitHub - recreated by running tradesmart-ml/src/train_models.py
+tradesmart-ml/models/random_forest.joblib

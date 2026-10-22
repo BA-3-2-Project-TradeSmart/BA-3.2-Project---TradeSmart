@@ -1,0 +1,176 @@
+[
+  {
+    "text": "There's a small dent about the size of a golf ball on the rear bumper.",
+    "intent": "dent_description",
+    "intent_confidence": 0.869,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": "small",
+      "dent_evidence": "compared to a golf ball",
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": []
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "It's done 120,000km and has full service history at the dealer.",
+    "intent": "service_history",
+    "intent_confidence": 0.709,
+    "extracted": {
+      "mileage_km": 120000,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": "Reputable",
+      "numbers_mentioned": [
+        "120,000km"
+      ]
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "No accidents at all, the car is completely clean.",
+    "intent": "clean_no_issues",
+    "intent_confidence": 0.831,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": []
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "Honestly no accidents, but it was resprayed after a small bump last year.",
+    "intent": "accident_disclosure",
+    "intent_confidence": 0.303,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": true,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": []
+    },
+    "review_flags": [
+      "Contradiction - customer claims no accident history but also mentions a respray (often accident-related repair work)."
+    ],
+    "needs_human_review": true
+  },
+  {
+    "text": "It has aftermarket alloy wheels, fitted at a proper fitment centre.",
+    "intent": "aftermarket_mods",
+    "intent_confidence": 0.8,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [
+        "wheels"
+      ],
+      "install_quality": "Reputable",
+      "numbers_mentioned": []
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "I put in a new sound system myself, subwoofer and amp.",
+    "intent": "aftermarket_mods",
+    "intent_confidence": 0.733,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [
+        "sound_system"
+      ],
+      "install_quality": "DIY",
+      "numbers_mentioned": []
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "There's a crack in the windscreen on the passenger side, about 4cm.",
+    "intent": "windscreen_damage",
+    "intent_confidence": 0.623,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": "medium",
+      "dent_evidence": "measured at 4cm",
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": [
+        "about 4cm"
+      ]
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "Not sure really, maybe something happened but I can't remember exactly.",
+    "intent": "unclear",
+    "intent_confidence": 0.714,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": []
+    },
+    "review_flags": [
+      "Vague answer - contains hedging language, low confidence."
+    ],
+    "needs_human_review": true
+  },
+  {
+    "text": "The whole car was resprayed after a collision on the N3 two years ago.",
+    "intent": "respray_mention",
+    "intent_confidence": 0.563,
+    "extracted": {
+      "mileage_km": null,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": true,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": []
+    },
+    "review_flags": [],
+    "needs_human_review": false
+  },
+  {
+    "text": "It's done roughly 85000 miles, mostly highway driving.",
+    "intent": "clean_no_issues",
+    "intent_confidence": 0.195,
+    "extracted": {
+      "mileage_km": 136794,
+      "dent_severity": null,
+      "dent_evidence": null,
+      "respray": false,
+      "aftermarket_mods": [],
+      "install_quality": null,
+      "numbers_mentioned": [
+        "roughly 85000 miles"
+      ]
+    },
+    "review_flags": [],
+    "needs_human_review": true
+  }
+]

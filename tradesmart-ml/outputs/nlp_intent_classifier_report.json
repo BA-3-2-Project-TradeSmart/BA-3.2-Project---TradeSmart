@@ -1,0 +1,78 @@
+{
+  "held_out_accuracy": 0.9615,
+  "train_seconds": 0.06,
+  "n_training_sentences": 102,
+  "intent_labels": [
+    "accident_disclosure",
+    "aftermarket_mods",
+    "clean_no_issues",
+    "dent_description",
+    "respray_mention",
+    "service_history",
+    "unclear",
+    "windscreen_damage"
+  ],
+  "classification_report": {
+    "accident_disclosure": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "aftermarket_mods": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "clean_no_issues": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 4.0
+    },
+    "dent_description": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "respray_mention": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "service_history": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "unclear": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1-score": 0.6666666666666666,
+      "support": 2.0
+    },
+    "windscreen_damage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.9615384615384616,
+    "macro avg": {
+      "precision": 0.975,
+      "recall": 0.9375,
+      "f1-score": 0.9444444444444444,
+      "support": 26.0
+    },
+    "weighted avg": {
+      "precision": 0.9692307692307692,
+      "recall": 0.9615384615384616,
+      "f1-score": 0.9572649572649572,
+      "support": 26.0
+    }
+  }
+}

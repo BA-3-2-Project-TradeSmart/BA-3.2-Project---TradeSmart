@@ -1,0 +1,6 @@
+# Chatbot AI logic - same pinned versions the models were trained with
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0

@@ -5,7 +5,7 @@ value of a used vehicle that a customer wants to trade in at a South African
 dealership, and reads the customer's own description of the car's condition
 with NLP.
 
-Business Analysis 3.2 (AIBUY3A) project - "an AI Solution for Industries",
+Business Analysis 3.2 (AIBUY3A) project - "An AI-Powered Used-Vehicle Valuation",
 Vaal University of Technology.
 
 ## Group members
